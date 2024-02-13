@@ -27,15 +27,17 @@ img {
   margin: 20px;
   background-color: #ffff;
   border-radius: 10px;
+  text-align: center;
 }
 
 a:hover {
   color: #711370;
 }
 
-h2{
-  text-align: left;
+ul {
+  padding-left: 0;
 }
+
 li {
   display: inline-block;
   padding: 0px 20px;
@@ -59,18 +61,21 @@ li {
 }
 /* Style the button */
 button {
-  background-color: #5c1224; /* Green background color */
-  border: none; /* Remove border */
-  color: ffff; /* White text color */
-  padding: 15px 32px; /* Padding */
-  text-align: center; /* Center text */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Display as inline block */
-  font-size: 20px; /* Font size */
-  margin: 4px 2px; /* Margin */
-  transition-duration: 0.4s; /* Transition duration */
-  cursor: pointer; /* Cursor on hover */
-  border-radius: 12px; /* Rounded corners */
+  background-color: #5c1224;
+  color: #ffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Hover effect */
