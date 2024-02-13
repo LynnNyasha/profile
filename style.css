@@ -1,0 +1,79 @@
+body{
+  background-color: rgba(185, 171, 171, 0.811);
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 8px;
+}
+
+h1, h2{
+  color: rgb(75, 13, 13);
+  text-align: center;
+}
+
+a{
+  color: rgb(75, 13, 13);
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto; /* Center align image */
+  width: 200px;
+  height: 200px;
+}
+
+.card_green {
+  padding: 10px;
+  margin: 20px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #711370;
+}
+
+h2{
+  text-align: left;
+}
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: left;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+
+  @media (max-width: 960px) {
+    width: 700px;
+  }
+
+  @media (max-width: 720px) {
+    width: 500px;
+  }
+
+  @media (max-width: 540px) {
+    width: 300px;
+  }
+}
+/* Style the button */
+button {
+  background-color: #5c1224; /* Green background color */
+  border: none; /* Remove border */
+  color: ffff; /* White text color */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as inline block */
+  font-size: 20px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  transition-duration: 0.4s; /* Transition duration */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 12px; /* Rounded corners */
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #d2a1a1; /* Darker green */
+}
